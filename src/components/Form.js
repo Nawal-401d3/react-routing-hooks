@@ -6,9 +6,8 @@ class Resty extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            url: '',
-            results : []
-        } // end of state
+            url: ''
+            } // end of state
     } // end of constructor 
 
     handleURL = event => {
@@ -20,12 +19,14 @@ class Resty extends React.Component {
 
     handleSub = async event =>{
         event.preventDefault();
+        
         superagent.get(`${this.state.url}`)
             .then(data => {
-                console.log('data',data.body.results);
-                
-                let data2 = data.body.results;
-                this.setState({ results:data2});
+                console.log('data',data.body);
+                let data2 = data.body;
+                // this.setState({ results:data2});
+                this.props.apiURL(this.state.url);
+                this.props.update(data2);
             })
     }
 
@@ -66,7 +67,7 @@ function Form(props) {
                     <input type='radio'/>PATCH</label>
                 <button type='submit'> GO!</button>
             </section>
-            <textarea></textarea>
+    <textarea>{props.data2}</textarea>
         </form>
 
     );
