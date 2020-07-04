@@ -16,12 +16,13 @@
     "type": "git",
     "url": "git+https://github.com/Nawal-401d3/react-routing-hooks.git"
   },
+  "keywords": [],
   "author": "Nawal Suliman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nawal-401d3/react-routing-hooks/issues"
   },
-  "homepage": "/",
+  "homepage": "https://github.com/Nawal-401d3/react-routing-hooks/",
   "dependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
