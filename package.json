@@ -1,0 +1,48 @@
+{
+  "name": "react-routing-hooks",
+  "version": "1.0.0",
+  "description": "react routing and composition ",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint '**/*.js'"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nawal-401d3/react-routing-hooks.git"
+  },
+  "author": "Nawal Suliman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nawal-401d3/react-routing-hooks/issues"
+  },
+  "homepage": "https://github.com/Nawal-401d3/react-routing-hooks#readme",
+  "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-jsonschema-form": "^1.8.1",
+    "react-scripts": "^3.4.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
