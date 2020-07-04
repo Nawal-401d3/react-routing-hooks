@@ -21,6 +21,7 @@
   "bugs": {
     "url": "https://github.com/Nawal-401d3/react-routing-hooks/issues"
   },
+  "homepage": "https://Nawal-401d3.github.io/react-routing-hooks/",
   "dependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
@@ -48,5 +49,4 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://Nawal-401d3.github.io/Nawal-401d3/react-routing-hooks/"
 }
